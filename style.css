@@ -14,6 +14,11 @@ ul li a {
   text-decoration: none;
 }
 
+div img{
+  display: block;
+  width: 100%;
+}
+
 .flex-container{
   display: flex;
   max-width: 992px;
@@ -99,4 +104,67 @@ header .menu{
   margin-right: 5px;
   background-color:#122A57;
   position: relative;
+}
+
+#quem-somos p{
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+#quem-somos img{
+  min-width: 420px;
+}
+
+.container-externo{
+  background-color: #122A57;
+  width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+#servicos h2{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.list-servicos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-servicos .item-servico{
+  text-align: center;
+}
+
+.item-servico a{
+  width: 220px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 50px;
+  padding: 5px 0 ;
+  color: #122A57;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.item-servico p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.item .servico img{
+  width: 80%;
+  margin: auto;
 }
